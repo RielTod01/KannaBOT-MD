@@ -29,7 +29,7 @@ ${htjava} *Status:* Couple
 ${htjava} *Ulang Tahun:* 5 Oct 2004
 ${htjava} *Alamat:* Indonesia, Jawa Timur, Tulungagung
 ${htjava} *Skills:* 
-> NodeJs [40.7%]
+> NodeJs [50.0%]
 > Python [5.4%]
 > JavaScript [29.2%]
 
