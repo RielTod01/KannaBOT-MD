@@ -121,8 +121,8 @@ global.author = '                「 Ƙαnnα BOT あ⁩ 」'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/6abc75a396b04f43a0cca.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/77694bf36e009db059d20.jpg'
+global.thumb = 'https://telegra.ph/file/763c24a0c5e5762f50294.jpg' //Main Thumbnail
+global.thumb2 = 'https://telegra.ph/file/04c4a1740149755d8beff.png'
 global.thumbbc = 'https://telegra.ph/file/b7e0c842a81af68d0d947.jpg'
 global.imagebot = 'https://telegra.ph/file/793b6accf3758f092742a.jpg'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
