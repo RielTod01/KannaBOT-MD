@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 let handler = async (m, { conn }) => {
-	let ne = await (await fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/anime/neko.txt')).text()
+	let ne = await (await fetch('https://api.lolhuman.xyz/api/random/neko?apikey=SGWN')).text()
     let nek = ne.split('\n')
     let neko = pickRandom(nek)
 	conn.sendButton(m.chat, 'Nyaww~ 🐾💗', wm, neko, [['Next','.neko']],m)
