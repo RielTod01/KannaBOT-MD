@@ -1,5 +1,5 @@
 import fetch from 'node-fetch'
-
+import axios from 'axios'
 let handler = async (m, { conn }) => {
 	let ne = await (await fetch('https://api.lolhuman.xyz/api/random/neko?apikey=SGWN')).text()
     let nek = ne.split('\n')
