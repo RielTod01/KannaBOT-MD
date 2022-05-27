@@ -482,7 +482,7 @@ const listMessage = {
 //-------DOC TEMPLATE
     const message = {
             document: { url: thumbdoc },
-            jpegThumbnail: await (await fetch(thumbdoc)).buffer(),
+            jpegThumbnail: await (await fetch(thumb)).buffer(),
             fileName: '𝗧 𝗜 𝗠 𝗘 : ' + wktuwib,
             mimetype: td,
             fileLength: fsizedoc,
