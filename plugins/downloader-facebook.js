@@ -4,7 +4,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `Use example ${usedPrefix}${command} https://fb.watch/azFEBmFRcy/`
     //const { result } = await facebookdlv2(args[0])
     if (!args[1]) return conn.sendButton(m.chat, `*${htki} ғᴀᴄᴇʙᴏᴏᴋ ${htka}*`, null, null, [['sᴅ', `.fb ${args[0]} sd`],['ʜᴅ', `.fb ${args[0]} hd`]],m)
-    let res = await fetch(`https://api.xteam.xyz/dl/fbv2?url=${args[0]}&APIKEY=YOURAPIKEY`)
+    let res = await fetch(`https://api.xteam.xyz/dl/fbv2?url=${args[0]}&APIKEY=f04c164fdec6c033`)
     let { result } = await res.json()
     
     let { hd, meta, sd } = result
