@@ -1,4 +1,4 @@
-let fetch = require("node-fetch")
+let fetch = require "node-fetch"
 
 let handler = async (m, { conn }) => {
   let res = await fetch(global.API('xteam', '/randomimage/ppcouple', {}, 'APIKEY=f04c164fdec6c033'))
