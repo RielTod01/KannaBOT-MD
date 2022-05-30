@@ -12,7 +12,7 @@ conn.sendButton(id, '────━┅ *BROADCAST* ┅━────\n' + text
             body: titlebot,
             description: titlebot,
             mediaType: 2,
-          thumbnail: await(await fetch(thumb2)).buffer(),
+          thumbnail: await(await fetch(thumbbc)).buffer(),
          mediaUrl: sig
         }
      }
