@@ -1,8 +1,11 @@
-let handler = async (m, { conn }) => {
-    conn.sendButtonImg(m.chat, global.API('lolhuman', '/api/random/loli', {}, 'apikey'), 'Pedo Pedo', wm, 'NEXT', '.loli', m)
-}
-handler.help = ['loli']
-handler.tags = ['anime']
-handler.command = /^(loli)$/i
+import fetch from 'node-fetch'
 
-module.exports = handler
+let handler = async (m, { conn, command }) => {
+	let url = 'https://api.lolhuman.xyz/api/random/loli?apikey=SGWN'
+	conn.sendButton(m.chat, 'Dasar Pedo', wm, await(await fetch(url)).buffer(), [['Next',`.${command}`]],m)
+}
+handler.command = /^(loli)$/i
+handler.tags = ['anime']
+handler.help = ['loli']
+
+export default handler
