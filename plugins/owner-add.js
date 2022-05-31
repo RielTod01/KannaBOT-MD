@@ -47,7 +47,7 @@ handler.help = ['add', '+'].map(v => 'o' + v + ' @user')
 handler.tags = ['owner']
 handler.command = /^(oadd|o\+)$/i
 
-handler.owner = true
+handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
