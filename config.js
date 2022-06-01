@@ -102,7 +102,7 @@ global.APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'dX99eSjN',
+  'https://melcanz.com': 'melcantik',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://botstyle-api.herokuapp.com': '4zeG9RYL',
