@@ -8,10 +8,7 @@
         "lib": "lib",
         "src": "src",
         "plugins": "plugins"
-    "version": "1.0.0",
-    "engines": {
-    "node": "6.11.1"
-    },
+    }, 
     "scripts": {
         "start": "node index.js",
         "test": "node test.js",
