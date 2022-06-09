@@ -27,6 +27,8 @@ export async function handler(chatUpdate) {
         return
     this.pushMessage(chatUpdate.messages).catch(console.error)
     let m = chatUpdate.messages[chatUpdate.messages.length - 1]
+    const _uptime = process.uptime() * 1000
+        global.pickRandom = pickRandom
     if (!m)
         return
     if (global.db.data == null)
