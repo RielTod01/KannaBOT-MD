@@ -278,12 +278,18 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
+❏ ᴛᴀʜᴜɴ ʙᴀʀᴜ
+_*${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik*_
+
+❏ ʀᴀᴍᴀᴅʜᴀɴ
+_*${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik*_
+
 const listMessage = {
   text: tek,
   footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`,
+  buttonText: `CLICK HERE ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -334,6 +340,27 @@ const listMessage = {
       minute: 'numeric',
       second: 'numeric'
     })
+    let hariRaya = new Date('January 1, 2023 23:59:59')
+    let sekarang = new Date().getTime()
+    let Selisih = hariRaya - sekarang
+    let jhari = Math.floor( Selisih / (1000 * 60 * 60 * 24));
+    let jjam = Math.floor( Selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+    let mmmenit = Math.floor( Selisih % (1000 * 60 * 60) / (1000 * 60))
+    let ddetik = Math.floor( Selisih % (1000 * 60) / 1000)
+    let hariRayaramadan = new Date('April 21, 2023 23:59:59')
+    let sekarangg = new Date().getTime()
+    let lebih = hariRayaramadan - sekarangg
+    let harii = Math.floor( lebih / (1000 * 60 * 60 * 24));
+    let jamm = Math.floor( lebih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+    let menitt = Math.floor( lebih % (1000 * 60 * 60) / (1000 * 60))
+    let detikk = Math.floor( lebih % (1000 * 60) / 1000)
+    let sekarat = new Date().getTime() 
+    let Kurang = ultah - sekarat
+    let ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
+    let ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
+    let onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
+    let detek = Math.floor( Kurang % (1000 * 60) / 1000)
+    let pe = '```'
     let _uptime = process.uptime() * 1000
     let _muptime
     if (process.send) {
