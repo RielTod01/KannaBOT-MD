@@ -50,6 +50,8 @@ https://github.com/Fokusdotid
 
 *❉ Xiao Yan:*
 https://github.com/ImYanXiao
+*❉ rielgans Ofc
+https//github.com/rieltod
 `
 conn.reply(m.chat, tqto, m, { contextInfo: { externalAdReply: {
             title: `${htjava} ${namebot}`,
