@@ -72,8 +72,8 @@ global.owner = [
   ['6282146218274', '❦ 𝑅𝑖𝑒𝑙 - 𝑔𝑎𝑛𝑠? 🎐', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = ['6282146218274'] // Want some help?
-global.prems = [''6282146218274] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.mods = [] // Want some help?
+global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
