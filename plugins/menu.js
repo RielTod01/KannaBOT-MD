@@ -37,7 +37,7 @@ const defaultMenu = {
 %m2 *Mode:* %mode
 %m2 *Platform:* %platform
 %m2 *Type:* Node.Js
-%m2 *Baileys:* Multi Device
+%m2 *Baileys:* Multi Device@md:4.0.0
 %m2 *Prefix:* [ *%_p* ]
 %m2 *Uptime:* %muptime
 %m2 *Database:* %rtotalreg dari %totalreg
@@ -283,7 +283,7 @@ const listMessage = {
   footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `𝐊𝐋𝐈𝐊 𝐃𝐈𝐒𝐈𝐍𝐈 ⎙ `, 
   sections
 }
   if (teks == '404') {
@@ -488,7 +488,7 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By FR Team',
+            footer: titlebot + '\n⚡ Supported By Riel farx',
             templateButtons: [
                 {
                     urlButton: {
@@ -498,25 +498,25 @@ const listMessage = {
                 },
                 {
                     urlButton: {
-                        displayText: 'Group Official',
+                        displayText: '🎧Group Official🎧',
                         url: sgc
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner',
+                        displayText: '🐼Owner🐼',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
                         displayText: 'Speed',
-                        id: '.ping'
+                        id: '.📶ping📶'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
+                        displayText: '🏮Donasi🏮',
                         id: '.donasi'
                     }
                 },
