@@ -11,23 +11,19 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blokir tanpa alasan
-• Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
-• No Telp`
+• Save ae kalo mau sv 🗿 ganteng kok ownernya
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *Nama RP:* Xiao - Yan? 
-${htjava} *Nama RL:* Rahasia🤣
-${htjava} *Umur:* 17 Tahun
-${htjava} *Kelas:* 11 Smk
+${htjava} *Nama RP:* 𝙧𝙞𝙚𝙡𝙜𝙖𝙣𝙨? 
+${htjava} *Nama RL:* 𝙣𝙤𝙩 𝙛𝙤𝙪𝙣𝙙
+${htjava} *Umur:* 15 Tahun
+${htjava} *Kelas:* 9 𝙚𝙨𝙚𝙢𝙥𝙚
 ${htjava} *Status:* Couple
 
-${htjava} *Ulang Tahun:* 5 Oct 2004
-${htjava} *Alamat:* Indonesia, Jawa Timur, Tulungagung
+${htjava} *Ulang Tahun:* 5 𝙟𝙪𝙡𝙞 2006
+${htjava} *Alamat:* Indonesia, kalimantan timur, Samarinda
 ${htjava} *Skills:* 
 > NodeJs [50.0%]
 > Python [5.4%]
@@ -60,7 +56,7 @@ const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "⚽ *Click Here* ⚽ !",
   sections
 }
 
